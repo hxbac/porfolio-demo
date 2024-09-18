@@ -1,0 +1,742 @@
+<html lang="en" class="light" style="color-scheme: light;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="next-head-count" content="4">
+    <meta name="description" content="Bostami - Tailwind CSS Personal Portfolio React Nextjs Template">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="keywords" content=" cv, portfolio, react nextjs portfolio, resume">
+    <meta name="ibthemes" content="ATFN">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="output.css">
+    <style>
+        .bg-homeBg {
+            background-image: url(./assets/bg.jpg);
+        }
+    </style>
+</head>
+
+<body data-aos-easing="ease" data-aos-duration="1200" data-aos-delay="0">
+    <div>
+        <div class="Toastify"></div>
+        <div
+            class="bg-homeBg min-h-screen dark:bg-homeBg-dark bg-no-repeat bg-center bg-cover bg-fixed md:pb-16 w-full">
+            <div class="z-50 ">
+                <div class="container mx-auto">
+                    <header
+                        class="flex flex-row-reverse justify-between items-center fixed top-0 left-0 w-full lg:static z-[1111111111] ">
+                        <nav class="">
+                            <ul class="flex my-12 ">
+                                <li class="mb-1">
+                                    <a class="rounded-md  cursor-pointer font-poppins bg-white text-gray-lite font-medium mx-2.5 flex text-xtiny py-2.5 px-2 md:px-4 xl:px-5 items-center transition-all duration-300 ease-in-out dark:hover:text-white dark:bg-[#212425] hover:text-white hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] dark:text-[#A6A6A6] linked bg-gradient-to-r nav-item" data-page="home" href="#">
+                                        <span class="mr-2 text-xl">
+                                            <svg stroke="currentColor"
+                                                fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024"
+                                                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M946.5 505L560.1 118.8l-25.9-25.9a31.5 31.5 0 0 0-44.4 0L77.5 505a63.9 63.9 0 0 0-18.8 46c.4 35.2 29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8a63.6 63.6 0 0 0 18.7-45.3c0-17-6.7-33.1-18.8-45.2zM568 868H456V664h112v204zm217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7 23.1 23.1L882 542.3h-96.1z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="mb-1">
+                                    <a class="px-2 rounded-md  cursor-pointer font-poppins bg-white text-gray-lite font-medium mx-2.5 flex text-xtiny py-2.5 md:px-4 xl:px-5 items-center transition-all duration-300 ease-in-out dark:hover:text-white dark:bg-[#212425] hover:text-white hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] dark:text-[#A6A6A6] nav-item" data-page="about" href="#">
+                                        <span class="mr-2 text-xl">
+                                            <svg stroke="currentColor"
+                                                fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em"
+                                                width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M313.6 304c-28.7 0-42.5 16-89.6 16-47.1 0-60.8-16-89.6-16C60.2 304 0 364.2 0 438.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-25.6c0-74.2-60.2-134.4-134.4-134.4zM400 464H48v-25.6c0-47.6 38.8-86.4 86.4-86.4 14.6 0 38.3 16 89.6 16 51.7 0 74.9-16 89.6-16 47.6 0 86.4 38.8 86.4 86.4V464zM224 288c79.5 0 144-64.5 144-144S303.5 0 224 0 80 64.5 80 144s64.5 144 144 144zm0-240c52.9 0 96 43.1 96 96s-43.1 96-96 96-96-43.1-96-96 43.1-96 96-96z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                        About
+                                    </a>
+                                </li>
+                                <li class="mb-1">
+                                    <a class="px-2 rounded-md  cursor-pointer font-poppins bg-white text-gray-lite font-medium mx-2.5 flex text-xtiny py-2.5 md:px-4 xl:px-5 items-center transition-all duration-300 ease-in-out dark:hover:text-white dark:bg-[#212425] hover:text-white hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] dark:text-[#A6A6A6] nav-item" data-page="resume" href="#">
+                                        <span class="mr-2 text-xl">
+                                            <svg
+                                                stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24"
+                                                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M6 6C6 5.44772 6.44772 5 7 5H17C17.5523 5 18 5.44772 18 6C18 6.55228 17.5523 7 17 7H7C6.44771 7 6 6.55228 6 6Z"
+                                                    fill="currentColor"></path>
+                                                <path
+                                                    d="M6 10C6 9.44771 6.44772 9 7 9H17C17.5523 9 18 9.44771 18 10C18 10.5523 17.5523 11 17 11H7C6.44771 11 6 10.5523 6 10Z"
+                                                    fill="currentColor"></path>
+                                                <path
+                                                    d="M7 13C6.44772 13 6 13.4477 6 14C6 14.5523 6.44771 15 7 15H17C17.5523 15 18 14.5523 18 14C18 13.4477 17.5523 13 17 13H7Z"
+                                                    fill="currentColor"></path>
+                                                <path
+                                                    d="M6 18C6 17.4477 6.44772 17 7 17H11C11.5523 17 12 17.4477 12 18C12 18.5523 11.5523 19 11 19H7C6.44772 19 6 18.5523 6 18Z"
+                                                    fill="currentColor"></path>
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M2 4C2 2.34315 3.34315 1 5 1H19C20.6569 1 22 2.34315 22 4V20C22 21.6569 20.6569 23 19 23H5C3.34315 23 2 21.6569 2 20V4ZM5 3H19C19.5523 3 20 3.44771 20 4V20C20 20.5523 19.5523 21 19 21H5C4.44772 21 4 20.5523 4 20V4C4 3.44772 4.44771 3 5 3Z"
+                                                    fill="currentColor"></path>
+                                            </svg>
+                                        </span>
+                                        Resume
+                                    </a>
+                                </li>
+                                <li class="mb-1">
+                                    <a class="px-2 rounded-md  cursor-pointer font-poppins bg-white text-gray-lite font-medium mx-2.5 flex text-xtiny py-2.5 md:px-4 xl:px-5 items-center transition-all duration-300 ease-in-out dark:hover:text-white dark:bg-[#212425] hover:text-white hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] dark:text-[#A6A6A6] nav-item" data-page="portfolio" href="#">
+                                        <span class="mr-2 text-xl">
+                                            <svg stroke="currentColor"
+                                                fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round"
+                                                stroke-linejoin="round" height="1em" width="1em"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                                                </path>
+                                                <polyline points="7.5 4.21 12 6.81 16.5 4.21"></polyline>
+                                                <polyline points="7.5 19.79 7.5 14.6 3 12"></polyline>
+                                                <polyline points="21 12 16.5 14.6 16.5 19.79"></polyline>
+                                                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                                                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                                            </svg>
+                                        </span>
+                                        Works
+                                    </a>
+                                </li>
+                                <!-- <li class="mb-1">
+                                    <a class="px-2 rounded-md  cursor-pointer font-poppins bg-white text-gray-lite font-medium mx-2.5 flex text-xtiny py-2.5 md:px-4 xl:px-5 items-center transition-all duration-300 ease-in-out dark:hover:text-white dark:bg-[#212425] hover:text-white hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] dark:text-[#A6A6A6] nav-item" data-page="blog" href="#">
+                                        <span class="mr-2 text-xl">
+                                            <svg stroke="currentColor"
+                                                fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em"
+                                                width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M162.4 196c4.8-4.9 6.2-5.1 36.4-5.1 27.2 0 28.1.1 32.1 2.1 5.8 2.9 8.3 7 8.3 13.6 0 5.9-2.4 10-7.6 13.4-2.8 1.8-4.5 1.9-31.1 2.1-16.4.1-29.5-.2-31.5-.8-10.3-2.9-14.1-17.7-6.6-25.3zm61.4 94.5c-53.9 0-55.8.2-60.2 4.1-3.5 3.1-5.7 9.4-5.1 13.9.7 4.7 4.8 10.1 9.2 12 2.2 1 14.1 1.7 56.3 1.2l47.9-.6 9.2-1.5c9-5.1 10.5-17.4 3.1-24.4-5.3-4.7-5-4.7-60.4-4.7zm223.4 130.1c-3.5 28.4-23 50.4-51.1 57.5-7.2 1.8-9.7 1.9-172.9 1.8-157.8 0-165.9-.1-172-1.8-8.4-2.2-15.6-5.5-22.3-10-5.6-3.8-13.9-11.8-17-16.4-3.8-5.6-8.2-15.3-10-22C.1 423 0 420.3 0 256.3 0 93.2 0 89.7 1.8 82.6 8.1 57.9 27.7 39 53 33.4c7.3-1.6 332.1-1.9 340-.3 21.2 4.3 37.9 17.1 47.6 36.4 7.7 15.3 7-1.5 7.3 180.6.2 115.8 0 164.5-.7 170.5zm-85.4-185.2c-1.1-5-4.2-9.6-7.7-11.5-1.1-.6-8-1.3-15.5-1.7-12.4-.6-13.8-.8-17.8-3.1-6.2-3.6-7.9-7.6-8-18.3 0-20.4-8.5-39.4-25.3-56.5-12-12.2-25.3-20.5-40.6-25.1-3.6-1.1-11.8-1.5-39.2-1.8-42.9-.5-52.5.4-67.1 6.2-27 10.7-46.3 33.4-53.4 62.4-1.3 5.4-1.6 14.2-1.9 64.3-.4 62.8 0 72.1 4 84.5 9.7 30.7 37.1 53.4 64.6 58.4 9.2 1.7 122.2 2.1 133.7.5 20.1-2.7 35.9-10.8 50.7-25.9 10.7-10.9 17.4-22.8 21.8-38.5 3.2-10.9 2.9-88.4 1.7-93.9z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                        Blogs
+                                    </a>
+                                </li> -->
+                                <li class="mb-1">
+                                    <a class="px-2 rounded-md  cursor-pointer font-poppins bg-white text-gray-lite font-medium mx-2.5 flex text-xtiny py-2.5 md:px-4 xl:px-5 items-center transition-all duration-300 ease-in-out dark:hover:text-white dark:bg-[#212425] hover:text-white hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] dark:text-[#A6A6A6] nav-item" data-page="contact"  href="#">
+                                        <span class="mr-2 text-xl">
+                                            <svg
+                                                stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 24 24" height="1em" width="1em"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g>
+                                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                                    <path
+                                                        d="M3 2h16.005C20.107 2 21 2.898 21 3.99v16.02c0 1.099-.893 1.99-1.995 1.99H3V2zm4 2H5v16h2V4zm2 16h10V4H9v16zm2-4a3 3 0 0 1 6 0h-6zm3-4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm8-6h2v4h-2V6zm0 6h2v4h-2v-4z">
+                                                    </path>
+                                                </g>
+                                            </svg>
+                                        </span>
+                                        Contact
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </header>
+                </div>
+            </div>
+            <div class="flex flex-col items-center h-[100vh] md:h-[90vh] lg:h-[80vh] xl:h-[71vh] justify-center aos-init aos-animate page hidden opacity-0" data-aos="fade" data-aos-duration="1000"data-aos="fade" id="home">
+                <img alt="hero image" src="./assets/_images_about_avatar.jpg" width="250" height="250" class="rounded-full w-[250px] h-[250px] 2xl:w-[280px] 2xl:h-[280px]" style="color: transparent;">
+                <h3 class="mt-6 mb-1 text-5xl font-semibold dark:text-white">Monalisa Ashley</h3>
+                <p class="mb-4 text-[#7B7B7B]">Ui/Ux Designer</p>
+                <div class="flex space-x-3">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                        <span class="socialbtn text-[#1773EA]">
+                            <svg stroke="currentColor"
+                                fill="currentColor" stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                                </path>
+                            </svg>
+                        </span>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                        <span class="socialbtn text-[#1C9CEA]">
+                            <svg stroke="currentColor"
+                                fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                                </path>
+                            </svg>
+                        </span>
+                    </a>
+                    <a href="https://dribbble.com/" target="_blank" rel="noopener noreferrer">
+                        <span class="socialbtn text-[#e14a84]">
+                            <svg stroke="currentColor"
+                                fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M256 8C119.252 8 8 119.252 8 256s111.252 248 248 248 248-111.252 248-248S392.748 8 256 8zm163.97 114.366c29.503 36.046 47.369 81.957 47.835 131.955-6.984-1.477-77.018-15.682-147.502-6.818-5.752-14.041-11.181-26.393-18.617-41.614 78.321-31.977 113.818-77.482 118.284-83.523zM396.421 97.87c-3.81 5.427-35.697 48.286-111.021 76.519-34.712-63.776-73.185-116.168-79.04-124.008 67.176-16.193 137.966 1.27 190.061 47.489zm-230.48-33.25c5.585 7.659 43.438 60.116 78.537 122.509-99.087 26.313-186.36 25.934-195.834 25.809C62.38 147.205 106.678 92.573 165.941 64.62zM44.17 256.323c0-2.166.043-4.322.108-6.473 9.268.19 111.92 1.513 217.706-30.146 6.064 11.868 11.857 23.915 17.174 35.949-76.599 21.575-146.194 83.527-180.531 142.306C64.794 360.405 44.17 310.73 44.17 256.323zm81.807 167.113c22.127-45.233 82.178-103.622 167.579-132.756 29.74 77.283 42.039 142.053 45.189 160.638-68.112 29.013-150.015 21.053-212.768-27.882zm248.38 8.489c-2.171-12.886-13.446-74.897-41.152-151.033 66.38-10.626 124.7 6.768 131.947 9.055-9.442 58.941-43.273 109.844-90.795 141.978z">
+                                </path>
+                            </svg>
+                        </span>
+                    </a>
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                        <span class="socialbtn text-[#0072b1]">
+                            <svg stroke="currentColor"
+                                fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                                </path>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+                <a href="#" download="" class="flex items-center bg-gradient-to-r from-[#FA5252] to-[#DD2476] duration-200 transition ease-linear hover:bg-gradient-to-l from-[#DD2476] to-[#fa5252ef] px-8 py-3 text-lg text-white rounded-[35px] mt-6">
+                    <img src="./assets/download.png" alt="icon" class="mr-2">Download CV
+                </a>
+            </div>
+
+            <div class="container lg:rounded-2xl bg-white dark:bg-[#111111] px-4 sm:px-5 md:px-10 lg:px-20 mx-auto page hidden opacity-0" data-aos="fade" data-aos-duration="1000" id="about">
+                <div data-aos="fade" class="aos-init aos-animate">
+                    <div class="py-12">
+                        <h2 class="after-effect after:left-52 mt-12 lg:mt-0 ">About Me</h2>
+                        <div class="grid grid-cols-12 md:gap-10 pt-4 md:pt-[40px] items-center">
+                            <div class="col-span-12 md:col-span-4">
+                                <img alt="routePath"
+                                    src="./assets/icon-1.svg" width="300"
+                                    height="400" decoding="async" data-nimg="1"
+                                    class="w-full md:w-[330px] md:h-[400px] object-cover overflow-hidden rounded-[35px] mb-3 md:mb-0"
+                                    loading="lazy" style="color: transparent;"></div>
+                            <div class="col-span-12 md:col-span-8 space-y-2.5">
+                                <div class=" md:mr-12 xl:mr-16">
+                                    <h3 class="text-4xl font-medium dark:text-white mb-2.5 ">Who am i?</h3>
+                                    <p class="text-gray-lite dark:text-color-910 leading-7">I'm Creative Director and
+                                        UI/UX Designer from Sydney, Australia, working in web development and print
+                                        media. I enjoy turning complex problems into simple, beautiful and intuitive
+                                        designs.</p>
+                                    <p class="text-gray-lite leading-7 mt-2.5 dark:text-color-910">My aim is to bring
+                                        across your message and identity in the most creative way. I created web design
+                                        for many famous brand companies.</p>
+                                </div>
+                                <div>
+                                    <h3 class="text-4xl font-medium my-5 dark:text-white">Personal Info</h3>
+                                    <div class=" grid grid-cols-1 sm:grid-cols-2 gap-6">
+                                        <div class="flex"><span
+                                                class="text-oriange dark:bg-color-990 shadow-icon mr-2.5 flex items-center justify-center rounded-md text-2xl w-12 text-"><svg
+                                                    stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                    viewBox="0 0 320 512" height="1em" width="1em"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z">
+                                                    </path>
+                                                </svg></span>
+                                            <div class="space-y-1">
+                                                <p class="text-xs text-gray-lite dark:text-color-910">Phone</p>
+                                                <h6 class="font-medium dark:text-white"><a
+                                                        class="hover:text-[#FA5252] duration-300 transition"
+                                                        href="tel:+1234567890">+123 456 7890</a></h6>
+                                            </div>
+                                        </div>
+                                        <div class="flex"><span
+                                                class="text-oriange-lite dark:bg-color-990 shadow-icon mr-2.5 flex items-center justify-center rounded-md text-2xl w-12 text-"><svg
+                                                    stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                    viewBox="0 0 384 512" height="1em" width="1em"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
+                                                    </path>
+                                                </svg></span>
+                                            <div class="space-y-1">
+                                                <p class="text-xs text-gray-lite dark:text-color-910">Location</p>
+                                                <h6 class="font-medium dark:text-white">Hong kong china</h6>
+                                            </div>
+                                        </div>
+                                        <div class="flex"><span
+                                                class="text-green dark:bg-color-990 shadow-icon mr-2.5 flex items-center justify-center rounded-md text-2xl w-12 text-"><svg
+                                                    stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                    viewBox="0 0 512 512" height="1em" width="1em"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M176 216h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16H176c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16zm-16 80c0 8.84 7.16 16 16 16h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16H176c-8.84 0-16 7.16-16 16v16zm96 121.13c-16.42 0-32.84-5.06-46.86-15.19L0 250.86V464c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V250.86L302.86 401.94c-14.02 10.12-30.44 15.19-46.86 15.19zm237.61-254.18c-8.85-6.94-17.24-13.47-29.61-22.81V96c0-26.51-21.49-48-48-48h-77.55c-3.04-2.2-5.87-4.26-9.04-6.56C312.6 29.17 279.2-.35 256 0c-23.2-.35-56.59 29.17-73.41 41.44-3.17 2.3-6 4.36-9.04 6.56H96c-26.51 0-48 21.49-48 48v44.14c-12.37 9.33-20.76 15.87-29.61 22.81A47.995 47.995 0 0 0 0 200.72v10.65l96 69.35V96h320v184.72l96-69.35v-10.65c0-14.74-6.78-28.67-18.39-37.77z">
+                                                    </path>
+                                                </svg></span>
+                                            <div class="space-y-1">
+                                                <p class="text-xs text-gray-lite dark:text-color-910">Email</p>
+                                                <h6 class="font-medium dark:text-white"> <a
+                                                        class="hover:text-[#FA5252] duration-300 transition"
+                                                        href="mailto:ibthemes21@gmail.com">example@mail.com</a></h6>
+                                            </div>
+                                        </div>
+                                        <div class="flex"><span
+                                                class="text-color-50 dark:bg-color-990 shadow-icon mr-2.5 flex items-center justify-center rounded-md text-2xl w-12 text-"><svg
+                                                    stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                    viewBox="0 0 448 512" height="1em" width="1em"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z">
+                                                    </path>
+                                                </svg></span>
+                                            <div class="space-y-1">
+                                                <p class="text-xs text-gray-lite dark:text-color-910">Birthday</p>
+                                                <h6 class="font-medium dark:text-white">May 27, 1990</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pb-12 ">
+                        <h3 class="text-[35px] dark:text-white font-medium pb-5">What I do!</h3>
+                        <div class="grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 ">
+                            <div class="about-box dark:bg-transparent" style="background: rgb(252, 244, 255);">
+                                <img src="./assets/icon-1.svg" width="40" height="40" decoding="async" data-nimg="1"class="w-10 h-10 object-contain block" loading="lazy" style="color: transparent;">
+                                <div class="space-y-2 break-all">
+                                    <h3 class="dark:text-white text-xl font-semibold">Ui/Ux Design</h3>
+                                    <p class=" leading-8 text-gray-lite dark:text-[#A6A6A6]">Lorem ipsum dolor sit amet,
+                                        consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                                </div>
+                            </div>
+                            <div class="about-box dark:bg-transparent" style="background: rgb(254, 250, 240);"><img
+                                    src="./assets/icon-2.svg" width="40" height="40" decoding="async" data-nimg="1"
+                                    class="w-10 h-10 object-contain block" loading="lazy" style="color: transparent;">
+                                <div class="space-y-2 break-all">
+                                    <h3 class="dark:text-white text-xl font-semibold">App Development</h3>
+                                    <p class=" leading-8 text-gray-lite dark:text-[#A6A6A6]">Lorem ipsum dolor sit amet,
+                                        consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                                </div>
+                            </div>
+                            <div class="about-box dark:bg-transparent" style="background: rgb(252, 244, 255);"><img
+                                    src="./assets/icon-3.svg" width="40" height="40" decoding="async" data-nimg="1"
+                                    class="w-10 h-10 object-contain block" loading="lazy" style="color: transparent;">
+                                <div class="space-y-2 break-all">
+                                    <h3 class="dark:text-white text-xl font-semibold">Photography</h3>
+                                    <p class=" leading-8 text-gray-lite dark:text-[#A6A6A6]">Lorem ipsum dolor sit amet,
+                                        consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                                </div>
+                            </div>
+                            <div class="about-box dark:bg-transparent" style="background: rgb(255, 244, 244);"><img
+                                    src="./assets/icon-4.svg" width="40" height="40" decoding="async" data-nimg="1"
+                                    class="w-10 h-10 object-contain block" loading="lazy" style="color: transparent;">
+                                <div class="space-y-2 break-all">
+                                    <h3 class="dark:text-white text-xl font-semibold">Photography</h3>
+                                    <p class=" leading-8 text-gray-lite dark:text-[#A6A6A6]">Lorem ipsum dolor sit amet,
+                                        consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                                </div>
+                            </div>
+                            <div class="about-box dark:bg-transparent" style="background: rgb(255, 240, 248);"><img
+                                    src="./assets/icon-5.svg" width="40" height="40" decoding="async" data-nimg="1"
+                                    class="w-10 h-10 object-contain block" loading="lazy" style="color: transparent;">
+                                <div class="space-y-2 break-all">
+                                    <h3 class="dark:text-white text-xl font-semibold">Managment</h3>
+                                    <p class=" leading-8 text-gray-lite dark:text-[#A6A6A6]">Lorem ipsum dolor sit amet,
+                                        consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                                </div>
+                            </div>
+                            <div class="about-box dark:bg-transparent" style="background: rgb(243, 250, 255);"><img
+                                    src="./assets/icon-6.svg" width="40" height="40" decoding="async" data-nimg="1"
+                                    class="w-10 h-10 object-contain block" loading="lazy" style="color: transparent;">
+                                <div class="space-y-2 break-all">
+                                    <h3 class="dark:text-white text-xl font-semibold">Web Development</h3>
+                                    <p class=" leading-8 text-gray-lite dark:text-[#A6A6A6]">Lorem ipsum dolor sit amet,
+                                        consectetuer adipiscing elit, sed diam euismod volutpat.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-[#F8FBFB] dark:bg-[#0D0D0D] max-w-full h-auto py-10 rounded-xl">
+                        <h3 class="text-center dark:text-white text-6xl mb-3 font-semibold ">Clients</h3>
+                        <div class="overflow-hidden">
+                            <div class="" dir="ltr">
+                                <div class="flex items-center justify-center">
+                                    <div class=" slick-cloned py-6 px-10"
+                                        aria-hidden="true" style="width: 167px;">
+                                        <div><img alt="brand" tabindex="-1"
+                                                src="./assets/brand-1.png"
+                                                width="150" height="50" decoding="async" data-nimg="1"
+                                                class=" overflow-hidden brand-img scale-75 s" loading="lazy"
+                                                style="color: transparent; width: 100%; display: inline-block;">
+                                        </div>
+                                    </div>
+                                    <div data-index="-4" tabindex="-1" class=" slick-cloned py-6 px-10"
+                                        aria-hidden="true" style="width: 167px;">
+                                        <div><img alt="brand" tabindex="-1"
+                                                src="./assets//brand-2.png"
+                                                width="150" height="50" decoding="async" data-nimg="1"
+                                                class=" overflow-hidden brand-img scale-75 s" loading="lazy"
+                                                style="color: transparent; width: 100%; display: inline-block;">
+                                        </div>
+                                    </div>
+                                    <div data-index="-3" tabindex="-1" class=" slick-cloned py-6 px-10"
+                                        aria-hidden="true" style="width: 167px;">
+                                        <div><img alt="brand" tabindex="-1"
+                                                src="./assets/brand-3.png"
+                                                width="150" height="50" decoding="async" data-nimg="1"
+                                                class=" overflow-hidden brand-img scale-75 s" loading="lazy"
+                                                style="color: transparent; width: 100%; display: inline-block;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="overflow-hidden rounded-b-2xl bg-slate-50 dark:bg-black">
+                        <div class="container">
+                            <p class="text-center py-6 text-gray-lite dark:text-color-910 ">© 2024 All Rights Reserved
+                                by <a class="hover:text-[#FA5252] duration-300 transition"
+                                    href="https://themeforest.net/user/ib-themes" target="_blank"
+                                    rel="noopener noreferrer">ib-themes</a>.</p>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+
+            <div class="container lg:rounded-2xl bg-white dark:bg-[#111111] mx-auto page hidden opacity-0" data-aos="fade" data-aos-duration="1000" id="resume">
+                <div data-aos="fade" class="aos-init aos-animate">
+                    <div class="container sm:px-5 md:px-10 lg:px-20 ">
+                        <div class="py-12 px-4">
+                            <h2 class="after-effect after:left-44 mb-[40px] mt-12 lg:mt-0">Resume</h2>
+                            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-6 ">
+                                <div>
+                                    <div class="flex items-center space-x-2 mb-4">
+                                        <div class="text-6xl text-[#F95054]"><svg stroke="currentColor"
+                                                fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em"
+                                                width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill="none" d="M0 0h24v24H0V0z"></path>
+                                                <path
+                                                    d="M20 7h-4V5l-2-2h-4L8 5v2H4c-1.1 0-2 .9-2 2v5c0 .75.4 1.38 1 1.73V19c0 1.11.89 2 2 2h14c1.11 0 2-.89 2-2v-3.28c.59-.35 1-.99 1-1.72V9c0-1.1-.9-2-2-2zM10 5h4v2h-4V5zM4 9h16v5h-5v-3H9v3H4V9zm9 6h-2v-2h2v2zm6 4H5v-3h4v1h6v-1h4v3z">
+                                                </path>
+                                            </svg></div>
+                                        <h4 class="text-5xl dark:text-white font-medium">Education</h4>
+                                    </div>
+                                    <div class="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] dark:border-2"
+                                        style="background: rgb(255, 244, 244);"><span
+                                            class="text-tiny text-gray-lite dark:text-[#b7b7b7]">2021-2023</span>
+                                        <h3 class="text-xl dark:text-white"> Ph.D in Horriblensess </h3>
+                                        <p class="dark:text-[#b7b7b7]">ABC University, Los Angeles, CA</p>
+                                    </div>
+                                    <div class="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] dark:border-2"
+                                        style="background: rgb(255, 241, 251);"><span
+                                            class="text-tiny text-gray-lite dark:text-[#b7b7b7]">2019 - Present</span>
+                                        <h3 class="text-xl dark:text-white"> Sr. Software Tester </h3>
+                                        <p class="dark:text-[#b7b7b7]">Google Inc.</p>
+                                    </div>
+                                    <div class="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] dark:border-2"
+                                        style="background: rgb(255, 244, 244);"><span
+                                            class="text-tiny text-gray-lite dark:text-[#b7b7b7]">2021</span>
+                                        <h3 class="text-xl dark:text-white"> Best Developer </h3>
+                                        <p class="dark:text-[#b7b7b7]">University Of Melbourne, NA</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="flex items-center space-x-2 mb-4">
+                                        <div class="text-6xl text-[#F95054]"><svg stroke="currentColor"
+                                                fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em"
+                                                width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill="none" d="M0 0h24v24H0V0z"></path>
+                                                <path
+                                                    d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z">
+                                                </path>
+                                            </svg></div>
+                                        <h4 class="text-5xl dark:text-white font-medium">Experience</h4>
+                                    </div>
+                                    <div class="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] dark:border-2"
+                                        style="background: rgb(238, 245, 250);"><span
+                                            class="text-tiny text-gray-lite dark:text-[#b7b7b7]">2017-2021</span>
+                                        <h3 class="text-xl dark:text-white"> Computer Science </h3>
+                                        <p class="dark:text-[#b7b7b7]">Imperialize Technical Institute</p>
+                                    </div>
+                                    <div class="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] dark:border-2"
+                                        style="background: rgb(242, 244, 255);"><span
+                                            class="text-tiny text-gray-lite dark:text-[#b7b7b7]">2015-2017</span>
+                                        <h3 class="text-xl dark:text-white"> Cr. Web Developer </h3>
+                                        <p class="dark:text-[#b7b7b7]">ib-themes ltd.</p>
+                                    </div>
+                                    <div class="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] dark:border-2"
+                                        style="background: rgb(238, 245, 250);"><span
+                                            class="text-tiny text-gray-lite dark:text-[#b7b7b7]">2008</span>
+                                        <h3 class="text-xl dark:text-white"> Best Writter </h3>
+                                        <p class="dark:text-[#b7b7b7]">Online Typodev Soluation Ltd.</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="flex items-center space-x-2 mb-4">
+                                        <div class="text-6xl text-[#F95054]"><svg stroke="currentColor"
+                                                fill="currentColor" stroke-width="0" viewBox="0 0 384 512" height="1em"
+                                                width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M97.12 362.63c-8.69-8.69-4.16-6.24-25.12-11.85-9.51-2.55-17.87-7.45-25.43-13.32L1.2 448.7c-4.39 10.77 3.81 22.47 15.43 22.03l52.69-2.01L105.56 507c8 8.44 22.04 5.81 26.43-4.96l52.05-127.62c-10.84 6.04-22.87 9.58-35.31 9.58-19.5 0-37.82-7.59-51.61-21.37zM382.8 448.7l-45.37-111.24c-7.56 5.88-15.92 10.77-25.43 13.32-21.07 5.64-16.45 3.18-25.12 11.85-13.79 13.78-32.12 21.37-51.62 21.37-12.44 0-24.47-3.55-35.31-9.58L252 502.04c4.39 10.77 18.44 13.4 26.43 4.96l36.25-38.28 52.69 2.01c11.62.44 19.82-11.27 15.43-22.03zM263 340c15.28-15.55 17.03-14.21 38.79-20.14 13.89-3.79 24.75-14.84 28.47-28.98 7.48-28.4 5.54-24.97 25.95-45.75 10.17-10.35 14.14-25.44 10.42-39.58-7.47-28.38-7.48-24.42 0-52.83 3.72-14.14-.25-29.23-10.42-39.58-20.41-20.78-18.47-17.36-25.95-45.75-3.72-14.14-14.58-25.19-28.47-28.98-27.88-7.61-24.52-5.62-44.95-26.41-10.17-10.35-25-14.4-38.89-10.61-27.87 7.6-23.98 7.61-51.9 0-13.89-3.79-28.72.25-38.89 10.61-20.41 20.78-17.05 18.8-44.94 26.41-13.89 3.79-24.75 14.84-28.47 28.98-7.47 28.39-5.54 24.97-25.95 45.75-10.17 10.35-14.15 25.44-10.42 39.58 7.47 28.36 7.48 24.4 0 52.82-3.72 14.14.25 29.23 10.42 39.59 20.41 20.78 18.47 17.35 25.95 45.75 3.72 14.14 14.58 25.19 28.47 28.98C104.6 325.96 106.27 325 121 340c13.23 13.47 33.84 15.88 49.74 5.82a39.676 39.676 0 0 1 42.53 0c15.89 10.06 36.5 7.65 49.73-5.82zM97.66 175.96c0-53.03 42.24-96.02 94.34-96.02s94.34 42.99 94.34 96.02-42.24 96.02-94.34 96.02-94.34-42.99-94.34-96.02z">
+                                                </path>
+                                            </svg></div>
+                                        <h4 class="text-5xl dark:text-white font-medium">Awards</h4>
+                                    </div>
+                                    <div class="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] dark:border-2"
+                                        style="background: rgb(252, 244, 255);"><span
+                                            class="text-tiny text-gray-lite dark:text-[#b7b7b7]">2015-2017</span>
+                                        <h3 class="text-xl dark:text-white"> Graphic Designer </h3>
+                                        <p class="dark:text-[#b7b7b7]">Web Graphy, Los Angeles, CA</p>
+                                    </div>
+                                    <div class="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] dark:border-2"
+                                        style="background: rgb(252, 249, 242);"><span
+                                            class="text-tiny text-gray-lite dark:text-[#b7b7b7]">2014 - 2015</span>
+                                        <h3 class="text-xl dark:text-white"> Jr. Web Developer </h3>
+                                        <p class="dark:text-[#b7b7b7]">Creative Gigs.</p>
+                                    </div>
+                                    <div class="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] dark:border-2"
+                                        style="background: rgb(252, 244, 255);"><span
+                                            class="text-tiny text-gray-lite dark:text-[#b7b7b7]">2015-2017</span>
+                                        <h3 class="text-xl dark:text-white"> Best Freelancer </h3>
+                                        <p class="dark:text-[#b7b7b7]">Fiver &amp; Upwork Level 2 &amp; Top Rated</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container bg-color-810 dark:bg-[#0D0D0D] py-12 px-4 sm:px-5 md:px-10 lg:px-20">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div class="col-span-1">
+                                <h4 class="text-5xl dark:text-white font-medium mb-6">Working Skills</h4>
+                                <div class=" mb-7">
+                                    <div class="flex justify-between py-1"><span
+                                            class=" text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Web
+                                            Design</span><span
+                                            class=" text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">80%</span>
+                                    </div><svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
+                                        <path class="rc-progress-line-trail" d="M 0.5,0.5
+         L 99.5,0.5" stroke-linecap="round" stroke="#D9D9D9" stroke-width="1" fill-opacity="0"></path>
+                                        <path class="rc-progress-line-path" d="M 0.5,0.5
+         L 99.5,0.5" stroke-linecap="round" stroke="#FF6464" stroke-width="1" fill-opacity="0"
+                                            style="stroke-dasharray: 79.2px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s, stroke-dasharray 0.3s, stroke 0.3s linear, 0.06s;">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class=" mb-7">
+                                    <div class="flex justify-between py-1"><span
+                                            class=" text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Mobile
+                                            App </span><span
+                                            class=" text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">95%</span>
+                                    </div><svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
+                                        <path class="rc-progress-line-trail" d="M 0.5,0.5
+         L 99.5,0.5" stroke-linecap="round" stroke="#D9D9D9" stroke-width="1" fill-opacity="0"></path>
+                                        <path class="rc-progress-line-path" d="M 0.5,0.5
+         L 99.5,0.5" stroke-linecap="round" stroke="#9272D4" stroke-width="1" fill-opacity="0"
+                                            style="stroke-dasharray: 94.05px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s, stroke-dasharray 0.3s, stroke 0.3s linear, 0.06s;">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class=" mb-7">
+                                    <div class="flex justify-between py-1"><span
+                                            class=" text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Illustrator</span><span
+                                            class=" text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">65%</span>
+                                    </div><svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
+                                        <path class="rc-progress-line-trail" d="M 0.5,0.5
+         L 99.5,0.5" stroke-linecap="round" stroke="#D9D9D9" stroke-width="1" fill-opacity="0"></path>
+                                        <path class="rc-progress-line-path" d="M 0.5,0.5
+         L 99.5,0.5" stroke-linecap="round" stroke="#5185D4" stroke-width="1" fill-opacity="0"
+                                            style="stroke-dasharray: 64.35px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s, stroke-dasharray 0.3s, stroke 0.3s linear, 0.06s;">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class=" mb-7">
+                                    <div class="flex justify-between py-1"><span
+                                            class=" text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">Photoshope</span><span
+                                            class=" text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">75%</span>
+                                    </div><svg class="rc-progress-line" viewBox="0 0 100 1" preserveAspectRatio="none">
+                                        <path class="rc-progress-line-trail" d="M 0.5,0.5
+         L 99.5,0.5" stroke-linecap="round" stroke="#D9D9D9" stroke-width="1" fill-opacity="0"></path>
+                                        <path class="rc-progress-line-path" d="M 0.5,0.5
+         L 99.5,0.5" stroke-linecap="round" stroke="#CA56F2" stroke-width="1" fill-opacity="0"
+                                            style="stroke-dasharray: 74.25px, 100px; stroke-dashoffset: 0px; transition: stroke-dashoffset 0.3s, stroke-dasharray 0.3s, stroke 0.3s linear, 0.06s;">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="col-span-1">
+                                <h4 class="text-5xl dark:text-white font-medium mb-8">Knowledges</h4>
+                                <div class="flex gap-x-3 gap-y-3 md:gap-y-3 md:gap-x-3 flex-wrap"><button
+                                        class="resume-btn text-[15px]">Digital Design</button><button
+                                        class="resume-btn text-[15px]">Marketing</button><button
+                                        class="resume-btn text-[15px]">Social Media</button><button
+                                        class="resume-btn text-[15px]">Print</button><button
+                                        class="resume-btn text-[15px]">Time Management</button><button
+                                        class="resume-btn text-[15px]">Flexibility</button><button
+                                        class="resume-btn text-[15px]">Print</button><button
+                                        class="resume-btn text-[15px]">Time Management</button><button
+                                        class="resume-btn text-[15px]">Flexibility</button><button
+                                        class="resume-btn text-[15px]">Print</button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="overflow-hidden rounded-b-2xl bg-slate-50 dark:bg-black">
+                        <div class="container">
+                            <p class="text-center py-6 text-gray-lite dark:text-color-910 ">© 2024 All Rights Reserved
+                                by <a class="hover:text-[#FA5252] duration-300 transition"
+                                    href="https://themeforest.net/user/ib-themes" target="_blank"
+                                    rel="noopener noreferrer">ib-themes</a>.</p>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+
+            <div class="container lg:rounded-2xl bg-white dark:bg-[#111111] mx-auto page hidden opacity-0" data-aos="fade" data-aos-duration="1000" id="portfolio">
+                <div data-aos="fade" class="aos-init aos-animate">
+                    <div class=" mb-8 px-4 sm:px-5 md:px-10 lg:px-[60px]">
+                        <div class="py-12">
+                            <h2 class="after-effect after:left-48 mt-12 lg:mt-0 opacity-100">Portfolio</h2>
+                            <ul class="mt-[40px] flex w-full justify-start md:justify-end flex-wrap font-medium pb-12">
+                                <li class="text-[#FA5252] mr-4 md:mx-4">All</li>
+                                <li class="fillter-btn mr-4 md:mx-4">Video</li>
+                                <li class="fillter-btn mr-4 md:mx-4">Web Design</li>
+                                <li class="fillter-btn ml-0 mr-4 md:mx-4">Logo</li>
+                                <li class="fillter-btn  ">Graphic Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <footer class="overflow-hidden rounded-b-2xl bg-slate-50 dark:bg-black">
+                        <div class="container">
+                            <p class="text-center py-6 text-gray-lite dark:text-color-910 ">© 2024 All Rights Reserved
+                                by <a class="hover:text-[#FA5252] duration-300 transition"
+                                    href="https://themeforest.net/user/ib-themes" target="_blank"
+                                    rel="noopener noreferrer">ib-themes</a>.</p>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+
+            <div class="container lg:rounded-2xl bg-white dark:bg-[#111111] mx-auto page hidden opacity-0" data-aos="fade" data-aos-duration="1000" id="contact">
+                <div data-aos="fade" class="aos-init aos-animate">
+                    <div class="py-12 px-4 sm:px-5 md:px-10 lg:px-20">
+                        <h2 class="after-effect after:left-40 mb-[40px] mt-12 lg:mt-0">Contact</h2>
+                        <div class="lg:flex gap-x-20">
+                            <div class="w-full lg:w-[40%] xl:w-[30%] space-y-6">
+                                <div class="flex flex-wrap p-[30px] border-[#A6A6A6] gap-2 rounded-xl "
+                                    style="background: rgb(252, 244, 255);"><span class="w-8 mt-2"><img alt="icon"
+                                            srcset="/_next/image?url=%2Fimages%2Fcontact%2Fphone-call%201.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fimages%2Fcontact%2Fphone-call%201.png&amp;w=64&amp;q=75 2x"
+                                            src="/_next/image?url=%2Fimages%2Fcontact%2Fphone-call%201.png&amp;w=64&amp;q=75"
+                                            width="30" height="20" decoding="async" data-nimg="1"
+                                            class="text-4xl dark:text-white" loading="lazy" style=""></span>
+                                    <div class="space-y-2">
+                                        <p class="text-xl font-semibold dark:text-white">Phone :</p>
+                                        <p><a href="tel:+452 666 386"
+                                                class="text-gray-lite text-lg dark:text-[#A6A6A6] ">+452 666 386</a></p>
+                                        <p><a href="tel:+654 764 878"
+                                                class="text-gray-lite text-lg dark:text-[#A6A6A6] ">+654 764 878</a></p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-wrap p-[30px] border-[#A6A6A6] gap-2 rounded-xl "
+                                    style="background: rgb(238, 251, 255);"><span class="w-8 mt-2"><img alt="icon"
+                                            srcset="/_next/image?url=%2Fimages%2Fcontact%2Femail%201.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fimages%2Fcontact%2Femail%201.png&amp;w=64&amp;q=75 2x"
+                                            src="/_next/image?url=%2Fimages%2Fcontact%2Femail%201.png&amp;w=64&amp;q=75"
+                                            width="30" height="20" decoding="async" data-nimg="1"
+                                            class="text-4xl dark:text-white" loading="lazy" style=""></span>
+                                    <div class="space-y-2">
+                                        <p class="text-xl font-semibold dark:text-white">Email :</p>
+                                        <p><a href="mailto:ibthemes21@gmail.com"
+                                                class="text-gray-lite text-lg dark:text-[#A6A6A6] ">ibthemes@gmail.com</a>
+                                        </p>
+                                        <p><a href="mailto:xyz@abc.com"
+                                                class="text-gray-lite text-lg dark:text-[#A6A6A6] ">mailto:xyz@abc.com</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-wrap p-[30px] border-[#A6A6A6] gap-2 rounded-xl "
+                                    style="background: rgb(242, 244, 255);"><span class="w-8 mt-2"><img alt="icon"
+                                            srcset="/_next/image?url=%2Fimages%2Fcontact%2Fmap%201.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fimages%2Fcontact%2Fmap%201.png&amp;w=64&amp;q=75 2x"
+                                            src="/_next/image?url=%2Fimages%2Fcontact%2Fmap%201.png&amp;w=64&amp;q=75"
+                                            width="30" height="20" decoding="async" data-nimg="1"
+                                            class="text-4xl dark:text-white" loading="lazy" style=""></span>
+                                    <div class="space-y-2">
+                                        <p class="text-xl font-semibold dark:text-white">Address :</p>
+                                        <p class="text-gray-lite text-lg dark:text-[#A6A6A6] ">Maount View, Oval</p>
+                                        <p class="text-gray-lite text-lg dark:text-[#A6A6A6] ">Road, New York, USA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-full mt-8 lg:mt-0 lg:w-[60%] xl:w-[70%]">
+                                <div
+                                    class="  dark:border-[#212425] dark:border-2 mb-16  md:p-[48px]  p-4   bg-color-810 rounded-xl dark:bg-[#111111] mb-[30px] md:mb-[60px]">
+                                    <h3 class="text-4xl "><span class="text-gray-lite dark:text-[#A6A6A6] ">I'm always
+                                            open to discussing product</span><br><span
+                                            class="font-semibold dark:text-white">design work or partnerships.</span>
+                                    </h3>
+                                    <form id="myForm">
+                                        <div class="relative z-0 w-full mt-[40px] mb-8 group"><input type="text"
+                                                name="name"
+                                                class="block autofill:bg-transparent py-2.5 px-0 w-full text-sm text-gray-lite bg-transparent border-0 border-b-[2px] border-[#B5B5B5] appearance-none dark:text-white dark:border-[#333333] dark:focus:border-[#FF6464] focus:outline-none focus:ring-0 focus:border-[#FF6464] peer"
+                                                placeholder=" " required=""><label for="name"
+                                                class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-color-910 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#FF6464] peer-focus:dark:text-[#FF6464] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-8">Name
+                                                *</label></div>
+                                        <div class="relative z-0 w-full mb-8 group"><input type="email"
+                                                name="user_email"
+                                                class="block autofill:text-red-900 needed py-2.5 px-0 w-full text-sm text-gray-lite bg-transparent border-0 border-b-[2px] border-[#B5B5B5] appearance-none dark:text-white dark:border-[#333333] dark:focus:border-[#FF6464] focus:outline-none focus:ring-0 focus:border-[#5185D4] peer"
+                                                placeholder=" " id="user_email" required=""><label for="user_email"
+                                                class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-color-910 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#5185D4] peer-focus:dark:text-[#FF6464] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-8">Email
+                                                *</label></div>
+                                        <div class="relative z-0 w-full mb-8 group"><input type="text" name="message"
+                                                class="block autofill:bg-yellow-200 py-2.5 px-0 w-full text-sm text-gray-lite bg-transparent border-0 border-b-[2px] border-[#B5B5B5] appearance-none dark:text-white dark:border-[#333333] dark:focus:border-[#FF6464] focus:outline-none focus:ring-0 focus:border-[#CA56F2] peer"
+                                                placeholder=" " id="message" required=""><label for="message"
+                                                class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-color-910 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#CA56F2] peer-focus:dark:text-[#FF6464] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-8">Message
+                                                *</label></div>
+                                        <div
+                                            class="transition-all duration-300 ease-in-out inline-block hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] rounded-lg mt-3">
+                                            <input type="submit"
+                                                class=" transition ease-in duration-200 font-semibold cursor-pointer border-color-910 hover:border-transparent px-6 py-2 rounded-lg border-[2px] hover:text-white dark:text-white "
+                                                value="Submit">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="overflow-hidden rounded-b-2xl bg-slate-50 dark:bg-black">
+                        <div class="container">
+                            <p class="text-center py-6 text-gray-lite dark:text-color-910 ">© 2024 All Rights Reserved
+                                by <a class="hover:text-[#FA5252] duration-300 transition"
+                                    href="https://themeforest.net/user/ib-themes" target="_blank"
+                                    rel="noopener noreferrer">ib-themes</a>.</p>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000, // Animation duration in milliseconds
+            easing: 'ease-in-out', // Animation easing
+            once: true, // Whether animation should happen only once
+        });
+
+        const navItems = document.querySelectorAll('.nav-item')
+        const pages = document.querySelectorAll('.page')
+        navItems.forEach(item => {
+            item.addEventListener('click', function () {
+                const pageId = this.getAttribute('data-page')
+                localStorage.setItem('page', pageId)
+                navItems.forEach(nav => {
+                    nav.classList.remove('linked')
+                    nav.classList.remove('bg-gradient-to-r')
+                })
+                this.classList.add('bg-gradient-to-r')
+                this.classList.add('linked')
+                pages.forEach(page => {
+                    if (page.id === pageId) {
+                        page.classList.remove('hidden')
+                        page.classList.remove('opacity-0')
+                        page.classList.add('opacity-100')
+                    } else {
+                        page.classList.add('hidden')
+                        page.classList.add('opacity-0')
+                        page.classList.remove('opacity-100')
+                    }
+                })
+            })
+        })
+
+        const lastAccess = localStorage.getItem('page') ?? 'home'
+        document.querySelector(`.nav-item[data-page="${lastAccess}"]`).click()
+    </script>
+</body>
+
+</html>

@@ -141,7 +141,12 @@
                 </div>
             </div>
             <div class="flex flex-col items-center h-[100vh] md:h-[90vh] lg:h-[80vh] xl:h-[71vh] justify-center aos-init aos-animate page hidden opacity-0" data-aos="fade" data-aos-duration="1000"data-aos="fade" id="home">
-                <img alt="My dream" src="./assets/avatar.jpg" width="250" height="250" class="object-cover rounded-full w-[250px] h-[250px] 2xl:w-[280px] 2xl:h-[280px]" style="color: transparent;">
+                <picture>
+                    <source srcset="./assets/avatar.webp" type="image/webp">
+                    <source srcset="./assets/avatar.jpg" type="image/jpeg">
+                    <img alt="My dream" src="./assets/avatar.jpg" width="250" height="250" class="object-cover rounded-full w-[250px] h-[250px] 2xl:w-[280px] 2xl:h-[280px]" style="color: transparent;">
+                </picture>
+
                 <h3 class="mt-6 mb-1 text-5xl font-semibold dark:text-white">Nguyễn Thị Hiền</h3>
                 <p class="mb-4 text-[#7B7B7B]">Marketing</p>
                 <div class="flex space-x-3">
@@ -201,11 +206,17 @@
                         <h2 class="after-effect after:left-52 mt-12 lg:mt-0 ">About Me</h2>
                         <div class="grid grid-cols-12 md:gap-10 pt-4 md:pt-[40px] items-center">
                             <div class="col-span-12 md:col-span-4">
-                                <img alt="routePath"
-                                    src="./assets/about.jpg" width="300"
-                                    height="400" decoding="async" data-nimg="1"
-                                    class="w-full md:w-[330px] h-auto object-cover overflow-hidden rounded-[35px] mb-3 md:mb-0"
-                                    loading="lazy" style="color: transparent;"></div>
+                                <picture>
+                                    <source srcset="./assets/about.webp" type="image/webp">
+                                    <source srcset="./assets/about.jpg" type="image/jpeg">
+                                    <img alt="Day cung la my dream"
+                                        src="./assets/about.jpg" width="300"
+                                        height="400"
+                                        class="w-full md:w-[330px] h-auto object-cover overflow-hidden rounded-[35px] mb-3 md:mb-0"
+                                        loading="lazy" style="color: transparent;">
+                                </picture>
+
+                            </div>
                             <div class="col-span-12 md:col-span-8 space-y-2.5">
                                 <div class=" md:mr-12 xl:mr-16">
                                     <h3 class="text-4xl font-medium dark:text-white mb-2.5 ">Who am i?</h3>
